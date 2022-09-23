@@ -1,0 +1,201 @@
+/**{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+*/
+body{
+  background-attachment: fixed;
+  background-color: aqua;
+ 
+}
+
+
+.Link{
+  text-decoration: none;
+}
+.head{
+  width: 300px;
+  border: 2px solid blue;
+  font-weight: bold;
+  box-shadow: 0px 20px 0px 20px blue;
+  border-radius: 30px;
+ margin: 80px 0px 0px 100px;
+}
+.card1{
+  width: 300px;
+  border: 2px solid blue;
+  
+  box-shadow: 20px 10px 15px 25px;
+  border-radius: 20px;
+ margin: 80px 120px 0px 100px;
+}
+
+
+.grid{
+  width: 100px;
+  
+background-color: transparent;
+
+  border-radius: 20px;
+   
+  margin: 50px 0px 0px 100px;
+
+
+}
+
+.main{
+  border-radius: 30px;
+  position: absolute;
+  top:20px;
+  right: 80px;
+
+}
+h1{
+  color:blueviolet;
+  align-items: center;
+  margin:70px 0px 0px 200px;
+}
+.HomeIcon{
+  border: 20px solid;
+  border-radius: 50px;
+  size: 50px;
+
+}
+ul li{
+  list-style-type: none;
+  position: relative;
+  top: 250px;
+
+  }
+
+.Navbar1{
+ 
+  position: relative;
+  top: -200px;
+  left: 150px;
+  right: 400px;
+
+}
+
+.button{
+  margin: 50px 0px 0px 980px;
+
+
+}
+.card{
+   border-radius: 20px;
+  width: 900px;
+  box-shadow: 0px 10px 20px 0px;
+  height: 600px;
+   margin: 0px 0px 0px 50px;
+ 
+}
+.h2{
+   border: 2px solid black;
+   margin: 40px 300px 0px 70px;
+   box-shadow: 20px 0px 20px 0px;
+   text-align: center;
+   border-radius: 20px;
+
+}
+.sign{
+  border: 2px solid black;
+  text-align: center;
+}
+.pdf{
+  width:700px;
+  height: 750px;
+
+  box-shadow: 0px 5px 0px 5px transparent;
+  border-radius: 40px;
+  display: flex;
+  margin:-10px 50px 50px 200px;
+}
+.pdf2{
+  margin:80px 0px 0px 100px;
+}
+.label{
+  border:2px solid black;
+  margin: 20px 0px 0px 0px;
+  font-size: larger;
+
+}
+
+
+.pdf1{
+  margin:15px 0px 0px 100px;
+}
+h2{
+  text-decoration: underline;
+}
+.print__section {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0px 5px 0px 5px transparent;
+  border-radius: 20px;
+}
+.print__section h1 {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 20px;
+  margin: 10px 200px 0px 20px;
+  font-size: 23px;
+}
+.card {
+  position: relative;
+  width: 100%;
+  clear: both;
+  display: flex;
+  flex-direction: column;
+}
+.float__start {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+.float__start h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  border-bottom: 1px solid #d6d6d6;
+  margin-bottom: 7px;
+  padding-bottom: 7px;
+}
+.float__infoss ul {
+  margin-top: 27px;
+}
+.float__infoss li {
+  margin-top: 17px;
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+.print__button {
+
+  color: rgb(255 255 255/87%);
+  background-color: #f10;
+ margin: -40px 0px 0px 650px;
+ 
+  padding: 13px 30px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 20px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  border: 0;
+  float: left;
+  cursor: pointer;
+}
+@media print {
+  .card{padding: 17px;}
+}
+
+
+
+
+
+
+
